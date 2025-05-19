@@ -1,0 +1,248 @@
+  /* General Reset */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+
+  body {
+    background-image: url('https://tse3.mm.bing.net/th?id=OIP.MgIoW64zMIR5AquZxMwlwQHaEk&pid=Api&P=0&h=180');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: Arial, sans-serif;
+}
+
+
+  /* Header Styles */
+  header {
+    background-color: #010101;
+    color: white;
+    padding: 10px 10px;
+  }
+
+  .top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .logo img {
+    height: 70px;
+  }
+
+  .search-bar {
+    flex: 1;
+    display: flex;
+    margin: 0 20px;
+    max-width: 600px;
+  }
+
+  .search-bar input {
+    flex: 1;
+    padding: 8px;
+    border: none;
+    border-radius: 4px 0 0 4px;
+  }
+
+  .search-bar button {
+    padding: 8px 12px;
+    background-color: #febd69;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+  }
+
+  .search-bar button i {
+    color: black;
+  }
+
+  .account a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 14px;
+  }
+
+  /* Nav Links */
+  nav {
+    background-color: #232f3e;
+    display: flex;
+    overflow-x: auto;
+    padding: 10px;
+  }
+
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+    font-size: 14px;
+    white-space: nowrap;
+  }
+
+  /* Deals Section */
+.deals {
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px; /* space between image and text */
+  flex-wrap: wrap;
+}
+
+.deal-image img {
+  max-width: 300px; /* Set to medium size */
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1); /* optional: add some styling */
+}
+
+  .brands {
+    margin-top: 10px;
+    color: #007185;
+  }
+
+  /* Desktop Banner */
+  .desktop-banner {
+    margin: 20px auto;
+    text-align: center;
+  }
+
+  .desktop-banner img {
+    width: 100%;
+    max-height: 100px;
+    object-fit: cover;
+  }
+
+  /* Product Categories */
+  .categories {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: space-evenly;
+  }
+
+  .category {
+    background-color: white;
+    flex: 1 1 300px;
+    padding: 15px;
+    border-radius: 10px;
+  }
+
+  .category h3 {
+    margin-bottom: 10px;
+    color: #0f1111;
+  }
+
+  .category-items {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .item {
+    width: 100px;
+    text-align: center;
+    font-size: 14px;
+  }
+
+  .item img {
+    width: 100%;
+    max-height: 100px;
+    object-fit: contain;
+  }
+
+  /* Add this outside any selector */
+  body, html {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+  }
+
+  /* Update this part */
+  .signin-banner {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 200px; /* Full viewport height */
+      background-color: white;
+      border: 1px solid #ccc;
+      text-align: center;
+  }
+
+  .signin-button {
+      display: inline-block;
+      background-color: #f0c14b;
+      border: 1px solid #a88734;
+      border-radius: 4px;
+      padding: 10px 20px;
+      color: #111;
+      font-weight: bold;
+      text-decoration: none;
+      cursor: pointer;
+      margin: 10px 0;
+  }
+
+  .signin-button:hover {
+      background-color: #e2b33d;
+  }
+
+
+  /* Footer */
+  footer {
+    background-color: #232f3e;
+    color: white;
+    padding-top: 20px;
+  }
+
+  .back-to-top {
+    background-color: #37475a;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .back-to-top a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .footer-links {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+
+  .footer-links div {
+    min-width: 150px;
+    margin-bottom: 20px;
+  }
+
+  .footer-links h4 {
+    margin-bottom: 10px;
+    color: #fff;
+  }
+
+  .footer-links p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #ddd;
+  }
+
+  .footer-bottom {
+    background-color: #131a22;
+    text-align: center;
+    padding: 15px;
+    font-size: 13px;
+    color: #aaa;
+  }
